@@ -28,7 +28,9 @@
     "TinkerBott.Four_bit_key|block": "读取 %dir 按键",
     "TinkerBott.joystick|block": "读取摇杆值 %dir ",
     "TinkerBott.Vibrating_machine|block": "震动电机 %condition",
-
-    "{id:category}TinkerBott": "TinkerBott"
-
+    "TinkerBott.UltrasonicDistance|block": "超声波传感器接Echo|%echo|Trig|%trig|读取距离 %unit",
+    
+    "{id:category}TinkerBott": "TinkerBott",
+    "{id:group}Microbit Car": "Microbit 小车",
+    "{id:group}Microbit controller": "Microbit 手柄"
 }

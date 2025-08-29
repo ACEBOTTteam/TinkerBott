@@ -794,9 +794,9 @@ namespace TinkerBott {
         Right = 1
     }
 
-    //% blockId=tracking block="%side tracking value"
-    //% weight=45
+    //% blockId=tracking block="%pin tracking value"
     //% group="Microbit Car"
+    //% weight=45
     export function tracking(side: MbPins): number {
         pins.setPull(AnalogPin.P0, PinPullMode.PullUp);
         pins.setPull(AnalogPin.P1, PinPullMode.PullUp);

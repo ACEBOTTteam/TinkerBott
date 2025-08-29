@@ -540,6 +540,22 @@ namespace TinkerBott {
         background.schedule(notifyIrEvents, background.Thread.Priority, background.Mode.Repeat, REPEAT_TIMEOUT_MS);
     }
     // IR Receiver @end
+
+
+    //% blockId=ledMatrixShowHex block="LED Matrix show Hex number %hex_num"
+    //% group="LED Matrix"
+    export function ledMatrixShowHex(hex_num: number): void {
+        for (let i = 0; i < 25; i += 5) {
+            for (let j = 0; j < 5; j++) {
+                if ((hex_num >> (i + j)) & 1) {
+                    led.plot(j, i / 5);
+                }
+                else {
+                    led.unplot(j, i / 5);
+                }
+            }
+        }
+    }
     
     // 添加辅助函数
     function constrain(value: number, min: number, max: number): number {

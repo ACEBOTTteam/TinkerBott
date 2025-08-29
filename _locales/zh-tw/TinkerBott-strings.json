@@ -1,5 +1,12 @@
 {
+    "TinkerBott.IRReceiver_init|block": "红外接收器接|%pin|",
+    "TinkerBott.IR_isDecodeResult|block": "红外按键解码结果|%button",
+    "TinkerBott.IR_DecodeResult|block": "红外按键解码结果",
+    "TinkerBott.IR_isReceived|block": "红外接收到数据",
+    "TinkerBott.IR_onButton|block": "当红外按键|%button|%action|时",
     "TinkerBott.stopcar|block": "停止",
+    "IR_ButtonAction.Pressed|block": "按下",
+    "IR_ButtonAction.Released|block": "松开",
     "TinkerBott.Direction.backward|block": "后退",
     "TinkerBott.Direction.forward|block": "前进",
     "TinkerBott.Direction.left|block": "左",
@@ -29,8 +36,10 @@
     "TinkerBott.joystick|block": "读取摇杆值 %dir ",
     "TinkerBott.Vibrating_machine|block": "震动电机 %condition",
     "TinkerBott.UltrasonicDistance|block": "超声波传感器接Echo|%echo|Trig|%trig|读取距离 %unit",
-    
+   
     "{id:category}TinkerBott": "TinkerBott",
+    "{id:group}Ultrasonic": "超声波",
+    "{id:group}IR Receiver": "红外遥控",
     "{id:group}Microbit Car": "Microbit 小车",
     "{id:group}Microbit controller": "Microbit 手柄"
 }

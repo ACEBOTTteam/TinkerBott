@@ -1,6 +1,6 @@
-# ACEBit
+# TinkerBott
 
-Extension for ACEBOTT ACEBit V1.0
+Extension for ACEBOTT TinkerBott V2.0
 
 ## License
 

@@ -11,7 +11,8 @@
         "README.md",
         "main.ts",
         "_locales/zh-cn/TinkerBott-strings.json",
-        "_locales/zh-tw/TinkerBott-strings.json"
+        "_locales/zh-tw/TinkerBott-strings.json",
+        "_locales/pt-br/TinkerBott-strings.json"
     ],
     "testFiles": [
         "test.ts"

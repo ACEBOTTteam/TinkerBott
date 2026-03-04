@@ -21,7 +21,7 @@
     "TinkerBott.Rocker.key|block": "Botão",
     "TinkerBott.MbPins.Left|block": "Esquerda",
     "TinkerBott.MbPins.Right|block": "Direita",
-    "TinkerBott.singleheadlights|block": "Definir cor do farol%light R:%r G:%g B:%b",
+    "TinkerBott.singleheadlights|block": "Definir cor do LED %light R:%r G:%g B:%b",
     "TinkerBott.motors|block": "Velocidade roda esquerda %lspeed\\% |Velocidade roda direita %rspeed\\%",
     "TinkerBott.colorLight|block": "Definir cor do LED %light $color",
     "TinkerBott.moveTime|block": "Definir direção %dir  |Velocidade %speed\\%",
